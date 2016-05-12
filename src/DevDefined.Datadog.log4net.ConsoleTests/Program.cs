@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Reflection;
+
 using log4net;
 
 namespace Tests
@@ -17,9 +18,9 @@ namespace Tests
             {
                 int i = 1;
                 int j = 0;
-                int a = i/j;
+                int a = i / j;
             }
-            catch (Exception ex)
+            catch(Exception ex)
             {
                 log.Error("This is an error with an exception", ex);
             }
